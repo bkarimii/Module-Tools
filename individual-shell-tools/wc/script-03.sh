@@ -8,3 +8,8 @@ set -euo pipefail
 #        1       7      39 ../helper-files/helper-2.txt
 #        3      19      92 ../helper-files/helper-3.txt
 #        5      30     151 total
+
+#  both do same
+wc -lwc ../helper-files/*
+
+wc ../helper-files/* # common way to do it
